@@ -1,0 +1,112 @@
+Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> a,b=1,1
+>>> 
+>>> for i in range(101):
+...     c=a
+...     a=b
+...     b=c+b
+...     print('{}th Pib. Number is {}'.format(i+2,b))
+... 
+...     
+2th Pib. Number is 2
+3th Pib. Number is 3
+4th Pib. Number is 5
+5th Pib. Number is 8
+6th Pib. Number is 13
+7th Pib. Number is 21
+8th Pib. Number is 34
+9th Pib. Number is 55
+10th Pib. Number is 89
+11th Pib. Number is 144
+12th Pib. Number is 233
+13th Pib. Number is 377
+14th Pib. Number is 610
+15th Pib. Number is 987
+16th Pib. Number is 1597
+17th Pib. Number is 2584
+18th Pib. Number is 4181
+19th Pib. Number is 6765
+20th Pib. Number is 10946
+21th Pib. Number is 17711
+22th Pib. Number is 28657
+23th Pib. Number is 46368
+24th Pib. Number is 75025
+25th Pib. Number is 121393
+26th Pib. Number is 196418
+27th Pib. Number is 317811
+28th Pib. Number is 514229
+29th Pib. Number is 832040
+30th Pib. Number is 1346269
+31th Pib. Number is 2178309
+32th Pib. Number is 3524578
+33th Pib. Number is 5702887
+34th Pib. Number is 9227465
+35th Pib. Number is 14930352
+36th Pib. Number is 24157817
+37th Pib. Number is 39088169
+38th Pib. Number is 63245986
+39th Pib. Number is 102334155
+40th Pib. Number is 165580141
+41th Pib. Number is 267914296
+42th Pib. Number is 433494437
+43th Pib. Number is 701408733
+44th Pib. Number is 1134903170
+45th Pib. Number is 1836311903
+46th Pib. Number is 2971215073
+47th Pib. Number is 4807526976
+48th Pib. Number is 7778742049
+49th Pib. Number is 12586269025
+50th Pib. Number is 20365011074
+51th Pib. Number is 32951280099
+52th Pib. Number is 53316291173
+53th Pib. Number is 86267571272
+54th Pib. Number is 139583862445
+55th Pib. Number is 225851433717
+56th Pib. Number is 365435296162
+57th Pib. Number is 591286729879
+58th Pib. Number is 956722026041
+59th Pib. Number is 1548008755920
+60th Pib. Number is 2504730781961
+61th Pib. Number is 4052739537881
+62th Pib. Number is 6557470319842
+63th Pib. Number is 10610209857723
+64th Pib. Number is 17167680177565
+65th Pib. Number is 27777890035288
+66th Pib. Number is 44945570212853
+67th Pib. Number is 72723460248141
+68th Pib. Number is 117669030460994
+69th Pib. Number is 190392490709135
+70th Pib. Number is 308061521170129
+71th Pib. Number is 498454011879264
+72th Pib. Number is 806515533049393
+73th Pib. Number is 1304969544928657
+74th Pib. Number is 2111485077978050
+75th Pib. Number is 3416454622906707
+76th Pib. Number is 5527939700884757
+77th Pib. Number is 8944394323791464
+78th Pib. Number is 14472334024676221
+79th Pib. Number is 23416728348467685
+80th Pib. Number is 37889062373143906
+81th Pib. Number is 61305790721611591
+82th Pib. Number is 99194853094755497
+83th Pib. Number is 160500643816367088
+84th Pib. Number is 259695496911122585
+85th Pib. Number is 420196140727489673
+86th Pib. Number is 679891637638612258
+87th Pib. Number is 1100087778366101931
+88th Pib. Number is 1779979416004714189
+89th Pib. Number is 2880067194370816120
+90th Pib. Number is 4660046610375530309
+91th Pib. Number is 7540113804746346429
+92th Pib. Number is 12200160415121876738
+93th Pib. Number is 19740274219868223167
+94th Pib. Number is 31940434634990099905
+95th Pib. Number is 51680708854858323072
+96th Pib. Number is 83621143489848422977
+97th Pib. Number is 135301852344706746049
+98th Pib. Number is 218922995834555169026
+99th Pib. Number is 354224848179261915075
+100th Pib. Number is 573147844013817084101
+101th Pib. Number is 927372692193078999176
+102th Pib. Number is 1500520536206896083277
